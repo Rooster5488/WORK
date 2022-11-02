@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.background {
+	background: rgb(73, 71, 71);
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+
+.nav-list {
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+
+
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.nav-list li a:hover {
+	color: grey;
+}
+
+
+.roomContainer{
+    width:250px;
+    height: 250px;
+    margin: 25px;
+    background: rgb(255, 255, 255);
+    border:3px solid blue;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.circle{
+    border-radius: 50%;
+    display: inline-block;
+    width:50px;
+    height:50px;
+    margin: 5px;
+}
+
+.idle{
+    background-color: rgb(247, 140, 0);
+
+}
+.active{
+    background-color: green;
+}
+
+.disabled{
+    background-color: grey;
+}
+
