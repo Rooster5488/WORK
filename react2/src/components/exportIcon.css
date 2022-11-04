@@ -1,0 +1,16 @@
+.exportIcon {
+    background-color: #009141;
+    border: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    justify-self: right;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    position: sticky;
+    right: 50px;
+  }
