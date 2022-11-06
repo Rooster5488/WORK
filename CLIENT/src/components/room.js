@@ -2,8 +2,7 @@ import { useEffect, useState } from "react"
 import Popup from "./Popup"
 
 
-const Room = ({roomId,busy}) => {
-    const [occupants,setOccupants] = useState(0)
+const Room = ({roomId,occupants}) => {
     const [buttonPopup, setButtonPopup] = useState(false)
     const [occupantID, setID] = useState(0)
     const [bookingEnd, bookEnd] = useState(0)
@@ -11,7 +10,6 @@ const Room = ({roomId,busy}) => {
     
     //this is a constructor
     useEffect(()=>{
-        setOccupants(Math.floor(Math.random()*3))
         setID("John Doe")
         bookEnd(Math.floor(Math.random()*12))
         nextBook(Math.floor(Math.random()*12))

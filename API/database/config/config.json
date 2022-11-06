@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "dbuser",
+    "password": "iab330",
+    "database": "iab330nodered",
+    "host": "34.234.221.217",
+    "dialect": "postgres"
+  },
+
+  "test": {
+    "username": "dbuser",
+    "password": "iab330",
+    "database": "iab330nodered",
+    "host": "34.234.221.217",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "dbuser",
+    "password": "iab330",
+    "database": "iab330nodered",
+    "host": "34.234.221.217",
+    "dialect": "postgres"
+  }
+}
